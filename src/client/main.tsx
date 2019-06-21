@@ -9,8 +9,7 @@ class Main extends React.Component {
         return (
             <Layout>
                 <Footer style={{position: "fixed", bottom: "0px", width: "100%"}}>
-                    <Input placeholder="Message"></Input>
-                    <Button type="primary">Primary</Button>
+                    <Input.Search placeholder="Message" enterButton={<Button type="primary">Send</Button>}></Input.Search>
                 </Footer>
             </Layout>
         );
