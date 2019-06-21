@@ -1,2 +1,2 @@
 # neutrino
-A Instant Messanger for the Future
+A Instant Messenger for the Future
