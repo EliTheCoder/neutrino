@@ -1,0 +1,37 @@
+{
+  "name": "neutrino",
+  "version": "0.1.0",
+  "description": "A Instant Messanger for the Future",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "scripts/start.sh",
+    "build": "scripts/build.sh",
+    "deploy": "scripts/deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EliTheCoder/neutrino.git"
+  },
+  "author": "EliTheCoder <ex.games.org@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/EliTheCoder/neutrino/issues"
+  },
+  "homepage": "https://github.com/EliTheCoder/neutrino#readme",
+  "dependencies": {
+    "antd": "^3.19.6",
+    "express": "^4.16.4",
+    "http": "0.0.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "socket.io": "^2.2.0",
+    "typescript": "^3.5.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "@types/node": "^12.0.2",
+    "@types/react": "^16.8.20",
+    "@types/react-dom": "^16.8.4",
+    "@types/socket.io": "^2.1.2"
+  }
+}
